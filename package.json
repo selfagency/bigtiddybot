@@ -17,9 +17,6 @@
     "webpack-build": "webpack --config ./webpack.config.js --mode production"
   },
   "devDependencies": {
-    "babel-loader": "^7.1.5",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
     "concurrently": "^3.6.1",
     "emoji-js": "^3.4.1",
     "emoji.json": "^11.0.0",
@@ -38,10 +35,12 @@
     "nodemon": "^1.18.3",
     "prettier": "^1.14.2",
     "prettier-eslint": "^8.8.2",
-    "prompt": "^1.0.0",
+    "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
-    "webpack": "^4.17.1"
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
