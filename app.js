@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 require('envkey')
-const EmojiConvertor = require('emoji-js')
 const emojis = require('emoji.json')
 const Mastodon = require('mastodon-api')
 
