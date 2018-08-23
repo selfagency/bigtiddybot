@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "dev": "./node_modules/.bin/concurrently ./node_modules/.bin/ndb './node_modules/.bin/ndb nodemon --config .nodemonrc ./app.js' 'yarn webpack-watch'",
-    "start": "node ./dist/index.js",
+    "start": "start ./dist/index.js",
     "test": "jest tests/* --forceExit",
     "ctest": "jest tests/* --coverage --forceExit && cat ./coverage/lcov.info | ./node_modules/.bin/env-cmd ./.env codacy-coverage",
     "webpack": "webpack --config ./webpack.config.js --mode development",

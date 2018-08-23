@@ -1,0 +1,15 @@
+[Unit]
+Description=Big Tiddy Bot
+
+[Service]
+ExecStart=/home/selfagency/webapps/bots/bigtiddybot/app.js
+Restart=always
+User=nobody
+# Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
+Group=nogroup
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/home/selfagency/webapps/bots/bigtiddybot
+
+[Install]
+WantedBy=multi-user.target

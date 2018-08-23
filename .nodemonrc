@@ -1,5 +1,5 @@
 {
   "ext": "js json",
   "verbose": false,
-  "watch": ["app.js", "src/**/*", "dist/**/*", "!*.log"]
+  "watch": ["app.js", "dist/**/*", "!*.log"]
 }
