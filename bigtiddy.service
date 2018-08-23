@@ -2,7 +2,7 @@
 Description=Big Tiddy Bot
 
 [Service]
-ExecStart=/home/selfagency/webapps/bots/bigtiddybot/dist/index.js
+ExecStart=/home/selfagency/webapps/bots/bigtiddybot/app.js
 Restart=always
 User=nobody
 # Note Debian/Ubuntu uses 'nogroup', RHEL/Fedora uses 'nobody'
