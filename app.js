@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 require('envkey')
 const emojis = require('emoji.json')
 const Mastodon = require('mastodon-api')
@@ -13,7 +11,7 @@ async function post() {
   const emoji = emojis[Math.floor(Math.random() * emojis.length)]
   const status = `big tiddy ${emoji.name.toLowerCase()}\n\n     ­­­${
     emoji.char
-  }\n  ​​:boob:​:boob:`
+  }\n­­  ​​:boob:​:boob:`
   console.log(status)
   const res = await M.post('statuses', { status })
   if (/error/.test(res.data)) console.log(res.data)
