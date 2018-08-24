@@ -9,7 +9,7 @@ const M = new Mastodon({
 
 async function post() {
   const emoji = emojis[Math.floor(Math.random() * emojis.length)]
-  const status = `big tiddy ${emoji.name.toLowerCase()}\n\n     ­­­${
+  const status = `big tiddy ${emoji.name.toLowerCase()}\n\n     ­${
     emoji.char
   }\n­­  ​​:boob:​:boob:`
   console.log(status)
