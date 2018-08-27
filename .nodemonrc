@@ -1,5 +1,0 @@
-{
-  "ext": "js json",
-  "verbose": false,
-  "watch": ["app.js", "dist/**/*", "!*.log"]
-}
